@@ -160,7 +160,8 @@ namespace RT64 {
     // 
     //                  Length      Hash                    Known instances               
     //     
-    static std::array<GBISegment, 94> textSegments = {
+    static std::array<GBISegment, 95> textSegments = {
+            GBISegment{ 0x1430,     0xC56D3BBE7CC7C6E0ULL,  { &F3DEX_1_21 } }, // BattleTanx
             GBISegment{ 0x1408,     0x9C0926F5E466BE70ULL,  { &F3D_SDK_E } }, // Needs confirmation.
             GBISegment{ 0x1400,     0x34EAA6E921BCF1B2ULL,  { &F3D_SDK_F, &F3D_SDK_UNKNOWN_G, &F3D_SDK_UNKNOWN_H } }, // Needs confirmation.
             GBISegment{ 0x1408,     0x3E05E9BBE814C700ULL,  { &F3D_FIFO_SDK_E } }, // Needs confirmation.
@@ -257,7 +258,8 @@ namespace RT64 {
             GBISegment{ 0x10B0,     0xE8028E4BC6529E6EULL,  { &ZSORTP_0_33 } }, // Needs confirmation.
     };
 
-    static std::array<GBISegment, 105> dataSegments = {
+    static std::array<GBISegment, 106> dataSegments = {
+            GBISegment{ 0x800,      0x8EF4DB4DC87823BBULL,  { &F3DEX_1_21 } }, // BattleTanx
             GBISegment{ 0x800,      0xEEB10D73400213B3ULL,  { &F3D_SDK_E } }, // Needs confirmation.
             GBISegment{ 0x800,      0x49651E384B48F694ULL,  { &F3D_SDK_F } }, // Needs confirmation.
             GBISegment{ 0x800,      0x1A736198F90E81C5ULL,  { &F3D_SDK_UNKNOWN_G } }, // Needs confirmation.
